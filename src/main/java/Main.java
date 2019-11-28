@@ -30,5 +30,9 @@ public class Main {
             return "saludo";
         });
         new Rutas().manejador();
+        get("/", (request, response) -> {
+            response.redirect("/inicio/");
+            return "saludo";
+        });
     }
 }
