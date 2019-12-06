@@ -14,14 +14,14 @@ public class Rutas {
         final Configuration configuration = new Configuration(new Version(2, 3, 0));
         try {
             configuration.setDirectoryForTemplateLoading(new File(
-                    "C:/Users/luis_/Documents/Web/CRUD/src/main/resources/freemarker"));
+                    "/home/ubuntu/CrudWeb1/src/main/resources/freemarker"));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         get("/inicio/", (request, response) -> {
             int i = 1;
-            Template plantillaFormulario = configuration.getTemplate("Listado.ftl");
+            Template plantillaFormulario = configuration.getTemplate("Lista.ftl");
             StringWriter writer = new StringWriter();
             Map<String, Object> attributes = new HashMap<>();
             attributes.put("persona", Main.getPersonas());

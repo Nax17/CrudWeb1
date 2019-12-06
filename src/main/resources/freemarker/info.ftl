@@ -6,9 +6,9 @@
 </head>
 <body>
 <div class="topnavigation">
-    <a class="active" href="Listado.ftl">Home</a>
+    <a class="active" href="Lista.ftl">Home</a>
     <a href="#agregar">Agregar Persona</a>
-    <a href="Listado.ftl">Listado Personas</a>
+    <a href="Lista.ftl">Listado Personas</a>
 </div>
 </body>
 </html>
