@@ -11,9 +11,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Rutas.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Rutas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/freemarker/Listado.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/freemarker/info.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/freemarker/info.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rutas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rutas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/freemarker/Listado.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/Lista.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/freemarker/info.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/info.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1575427897636" duration="829000" />
       <workItem from="1575472815604" duration="181000" />
       <workItem from="1575638551328" duration="54000" />
-      <workItem from="1575638683664" duration="723000" />
+      <workItem from="1575638683664" duration="1367000" />
     </task>
     <servers />
   </component>

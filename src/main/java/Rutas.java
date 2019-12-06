@@ -12,9 +12,9 @@ import static spark.Spark.post;
 public class Rutas {
     public void manejador(){
         final Configuration configuration = new Configuration(new Version(2, 3, 0));
+        File dir = new File("src/main/resources/freemarker");
         try {
-            configuration.setDirectoryForTemplateLoading(new File(
-                    "/home/ubuntu/CrudWeb1/src/main/resources/freemarker"));
+            configuration.setDirectoryForTemplateLoading(dir);
         } catch (IOException e) {
             e.printStackTrace();
         }
